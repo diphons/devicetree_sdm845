@@ -1946,6 +1946,7 @@
 			qcom,iommu-faults = "stall-disable", "HUPCF";
 			qcom,iommu-vmid = <0xA>;	/* VMID_CP_PIXEL */
 			dma-coherent;
+			status = "disabled";
 		};
 		qcom,msm_fastrpc_compute_cb11 {
 			compatible = "qcom,msm-fastrpc-compute-cb";
